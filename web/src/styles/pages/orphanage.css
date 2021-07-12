@@ -139,6 +139,11 @@
   border: 1px solid #A1E9C5;
   color: #37C77F;
 }
+.orphanage-details .orphanage-details-content .open-details div.close-on-weekends {
+  background: linear-gradient(154.16deg, #ffeded 7.85%, #FFFFFF 91.03%);
+  border: 1px solid #e9a1b1;
+  color: #c73743;
+}
 
 .orphanage-details .orphanage-details-content button.contact-button {
   margin-top: 64px;

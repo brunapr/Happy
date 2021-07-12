@@ -1,4 +1,5 @@
 import Leaflet from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 import mapMarkerImg from '../images/face.svg';
 

@@ -27,7 +27,7 @@ export default {
         const orphanages = await orphanagesRepository.find({
             relations: ['images']
         });
-
+        
         return response.json(orphanageView.renderMany(orphanages));
     },
 
@@ -57,7 +57,7 @@ export default {
             about,
             instructions,
             opening_hours,
-            open_on_weekends,
+            open_on_weekends: open_on_weekends === 'true',
             images,
         };
 
